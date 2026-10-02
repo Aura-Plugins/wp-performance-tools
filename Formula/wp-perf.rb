@@ -50,6 +50,6 @@ class WpPerf < Formula
   end
 
   test do
-    assert_match "wp-perf #{version}", shell_output("#{bin}/wp-perf version")
+    assert_match "wp-perf v#{version}", shell_output("#{bin}/wp-perf version")
   end
 end
