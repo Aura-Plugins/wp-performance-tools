@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "mysite": {
+      "ssh": "my-vps",
+      "docker_container": "mysite-wp",
+      "user": "admin",
+      "is_copy": true,
+      "skip_plugins": ["query-monitor", "all-in-one-wp-migration", "all-in-one-wp-migration-unlimited-extension"]
+    },
+    "local-site": {
+      "wp_path": "/Users/you/Local Sites/my-site/app/public",
+      "user": "admin",
+      "is_copy": true
+    },
+    "vps-plain": {
+      "ssh": "my-vps",
+      "wp_path": "/var/www/example.com/htdocs",
+      "is_copy": true
+    }
+  }
+}

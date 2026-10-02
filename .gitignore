@@ -1,0 +1,22 @@
+# Binaries
+/wp-perf
+dist/
+bin/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Go
+*.test
+coverage.out
+
+# Reports you generate (may contain client data)
+reports/
+*.report.json
+
+# Logs
+*.log
