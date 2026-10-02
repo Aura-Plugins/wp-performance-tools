@@ -16,7 +16,7 @@
 #   3. Copy this file to Formula/wp-perf.rb in Aura-Plugins/homebrew-tap.
 #
 class WpPerf < Formula
-  desc "Measure why a WordPress site is slow, via WP-CLI, without installing anything on it"
+  desc "Measure why a WordPress site is slow, via WP-CLI, with nothing installed"
   homepage "https://github.com/Aura-Plugins/wp-performance-tools"
   version "0.1.0"
   license "MIT"
